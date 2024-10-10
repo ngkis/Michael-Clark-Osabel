@@ -1,0 +1,11 @@
+{% extends 'app/base.html' %} {% load static %}
+{% block content %}
+  <div id="ab">
+    <h1>Michael Clark R. Osabel</h1><img class="picture-me" src="{% static 'images/l.jfif' %}" alt="Osabel"><p> I am Michael Clark R. Osabel and 24 years old. My birthday is August 22, 2000. I live in Molino Bacoor City, Cavite.</p>
+</div>
+ <div id="mi"><h1>This is my Family </h1>
+
+    <img class="family" src="{% static 'images/m.jfif' %}" alt="fa">
+</div>
+ {% include 'app/footer.html' %}
+{% endblock content %}
